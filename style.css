@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Barlow", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    position: relative;
+    /* width: 1600px; */
+    height: 820px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./src/pexels-kelly-l-2881370-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+/* .header{
+    background-image: url(./src/pexels-kelly-l-2881370-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        width: 1600px;
+        height: 800px;
+        filter: brightness(0.6);
+} */
+
+.header_txts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.header_txts p{
+    padding-top: 123px;
+    color: #fff;
+    font-size: 24px;
+}
+.header_txts h1{
+/* EnterOlymp */
+
+    width: 652px;
+    padding-top: 39px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+.header_txts a{
+    /* Rectangle 1 */
+    position: absolute; 
+    width: 278px;
+    height: 60px;
+    padding-left: 40px;
+    top: 567.1px;
+    background: #A47442;
+
+    border-radius: 15px;
+
+}
+.header_btn{
+    position: relative;
+    text-align: center;
+    padding: 15px 39px;
+    gap: 4px;
+    width: 392px;
+    height: 56px;
+    font-family: 'Barlow';
+    font-size: 17px;
+    /* font-weight: 600; */
+    color: #fff;
+    line-height: 29px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+}
+
+.about_us{
+    background-color: black;
+    height: 850px;
+    color: #fff;
+
+}
+
+.about_us h1{
+    text-align: center;
+}
+
+.about_us_block{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.about_us_head{
+    color: white;
+    font-size: 55px;
+    font-weight: 470px;
+    line-height: 78px;
+    letter-spacing: 0.17px;
+    word-wrap: break-word
+}
+
+.about_us_info{
+    display: flex;
+    justify-content: center;
+}
+
+.about_us_txt{ 
+    display: flex;
+    height: 100px;
+    padding-top: 40px;
+    flex-direction: row;
+    justify-items: space-between; 
+    gap: 20px; 
+    
+
+}
+
+.about_us_p1{
+    width: 486px;
+    height: 100px;
+}
+
+.about_us_p2{
+    width: 486px;
+    height: 100px;
+
+} 
+
+.about_us_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding-top: 20px;
+}
+
+.olympiads{
+    height: 600px;
+}
+
+.olympiads_block{
+    padding: 120px 72px; 
+
+}
+.olympiads_header{
+    display: flex;
+    flex-direction: column;
+}
+.olympiads_title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+    
+}
+
+/* .olympiads_choice{
+    position: relative;
+    width: 505px;
+    height: 68px;
+    background-color: #271D13;
+    border-radius: 24px;
+    margin-top: 60px;
+    margin-left: 425px;
+    display: flex;
+    justify-content: space-between;
+    border:#A47442 solid;
+} */
+.olympiads_choice{
+    position: relative;
+    width: 505px; /* Fixed width */
+    height: 68px; /* Fixed height */
+    background-color: #271D13;
+    border-radius: 24px;
+    margin: 0 auto; /* Top and bottom margins are 60px, left and right margins are auto */
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    border:#A47442 solid;
+   
+}
+
+
+
+
+
+/* .olympiads_choice_btn1{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 40px;
+    font-size: 20px;
+
+
+}
+.olympiads_choice_btn1:hover a{
+    transition: ease-in-out 0.2s;
+    background-color:#A47442 ;    
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-left: -17px;
+    color:#FFFFFF;
+} */
+
+.olympiads_choice_btn1,
+.olympiads_choice_btn2 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.olympiads_choice_btn1:hover,
+.olympiads_choice_btn2:hover {
+    transform: scale(1.1);
+}
+
+.olympiads_choice_btn1{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.olympiads_choice_btn1:hover a{
+    background-color:#A47442 ;    
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-left: -17px;
+    color:#FFFFFF;
+}
+
+.olympiads_choice_btn2 {
+    padding-right: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.olympiads_choice_btn2:hover a{
+    background-color:#A47442 ;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-right: -18px;
+    color: #FFFFFF;
+}
+
+
+.olympiads_choice_btn1.active a{
+    background-color:#A47442 ;    
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-left: -17px;
+    color:#FFFFFF;
+}
+
+
+/* .olympiads_choice_btn2 {
+    padding-right: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+
+.olympiads_choice_btn2:hover a{
+    transition: ease-in-out 0.2s;
+    background-color:#A47442 ;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-right: -18px;
+    color: #FFFFFF;
+} */
+@keyframes scroll {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .scroll {
+    animation: scroll 2s ease-out;
+  }
+  .olympiads_lists{
+    transition: 0.5s;
+    opacity: 1;
+  }
+
+.olympiad_lists_block{
+    margin-bottom: 40px;
+    padding-bottom: 120px;
+}
+
+.olympiads_lists_russian {
+    transition: 0.5s;
+    opacity: 1;
+}
+.olympiads_choice_btn1 a, .olympiads_choice_btn2 a {
+    transition: 0.2s;
+    background-color: initial;
+    border-radius: initial;
+    padding: initial;
+    color: #FFFFFF;
+}
+
+.olympiads_choice_btn2.active a {
+    background-color:#A47442 ;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-right: -18px;
+    color: #FFFFFF;
+}
+.olympiads_lists{
+    display: flex;
+    justify-content: space-around;
+}
+
+.olympiads_card{
+    display: flex;
+    flex-direction: column;
+    width: 170;
+    height: 140;
+    background-color: #271D13;
+    border-radius: 12px;
+    border: #A47442 solid;
+    
+    
+}
+.olympiads_card_header{
+    padding: 13px;
+    text-align: left;
+    border-bottom: #A47442 solid;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    font-size: 10px;
+}
+.olympiads_card_subject p{
+    text-align: center;
+    padding: 12px;
+    font-style: italic;
+    color: #A47442;
+}
+
+.olympiads_card_subject ul{
+    padding: 4px 40px;
+    
+}
+.olympiads_card_subject li {
+    margin-bottom: 10px;
+}
+.olympiads_card_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.olympiads_card_btn a{
+    background: #A47442; 
+    color: #FFFFFF;
+    padding: 16px 50px  ; 
+    border-radius: 15px;  
+}
+
+.olympiads_lists_russian{
+    display: none;
+    justify-content: space-around;
+}
