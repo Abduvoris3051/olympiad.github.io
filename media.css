@@ -65,8 +65,3 @@
   } */
   
   /* Styles for higher widths (1441px and higher) */
-@media (max-width: 1365px) {
-    .error{
-        display: contents;
-    }
-}

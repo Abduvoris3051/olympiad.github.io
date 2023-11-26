@@ -25,9 +25,7 @@ h4.title:hover {
 a {
     text-decoration: none;
 }
-.error{
-    display: none;
-}
+
 .header {
     position: relative;
     /* width: 1600px; */
