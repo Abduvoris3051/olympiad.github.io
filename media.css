@@ -1,0 +1,70 @@
+@media (max-width: 530px) {
+.header{
+    background-position: center;
+    width: 100%;
+    background-size: contain;
+    
+    }
+.header_txts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header_txts{
+    top: -70px;
+}
+.header_txts h1 {
+    font-size: 70px;
+}
+
+
+.about_us_img img{
+    max-width: 330px;
+    padding-top: 400px;
+}
+
+.olympiads_choice{
+    max-width: 300px;
+    
+}
+.olympiads_choice button{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.olympiads_choice_btn2 a{
+    margin-left: 19px;
+}
+
+.olympiad_lists_block{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 531px) and (max-width: 919px) {
+    .about_us_img img{
+        max-width: 530px;
+        padding-top: 110px;
+    }
+
+
+}
+
+@media  (min-width: 1025px) and (max-width: 1440px) {
+    .about_us_img{
+        padding-top: 30px;
+    }
+  }
+  
+  /* Styles for higher widths (1441px and higher) */
+@media (min-width: 1441px) {
+    /* Your styles for higher widths go here */
+  }
