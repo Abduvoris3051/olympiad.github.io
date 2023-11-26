@@ -1,4 +1,4 @@
-@media (max-width: 530px) {
+/* @media (max-width: 530px) {
 .header{
     background-position: center;
     width: 100%;
@@ -62,9 +62,11 @@
     .about_us_img{
         padding-top: 30px;
     }
-  }
+  } */
   
   /* Styles for higher widths (1441px and higher) */
-@media (min-width: 1441px) {
-    /* Your styles for higher widths go here */
-  }
+@media (max-width: 1365px) {
+    .error{
+        display: contents;
+    }
+}
