@@ -14,7 +14,7 @@
         <div class="header_txts">
             <p class="header_p">SIMPLIFY YOUR LIFE</p>
             <h1 class="header_h1">EnterOlymp</h1>
-            <a href="#" class="header_btn">START YOUR OLYMPIAD</a>
+            <a href="#start" class="header_btn">START YOUR OLYMPIAD</a>
         </div>
     </section>
     <section class="about_us">
@@ -36,7 +36,7 @@
              
         </div>
     </section>
-    <section class="olympiads">
+    <section class="olympiads" id="start">
         <div class="olympiads_block">
             <div class="olympiads_header">
                 <div class="olympiads_title">
@@ -347,6 +347,25 @@
                 }
             });
         }
+        function smoothScroll(targetId) {
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Attach click event listeners to the links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                smoothScroll(targetId);
+            });
+        });
 
         
     </script> 
