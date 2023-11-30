@@ -1,67 +1,168 @@
-/* @media (max-width: 530px) {
-.header{
-    background-position: center;
-    width: 100%;
-    background-size: contain;
-    
+@media (max-width: 530px) { 
+    body{
+        width: 100%;
     }
-.header_txts{
-    display: flex;
-    flex-direction: column;
-    
-}
-.header_txts{
-    top: -70px;
-}
-.header_txts h1 {
-    font-size: 70px;
-}
-
-
-.about_us_img img{
-    max-width: 330px;
-    padding-top: 400px;
-}
-
-.olympiads_choice{
-    max-width: 300px;
-    
-}
-.olympiads_choice button{
-    font-size: 14px;
-    margin-right: 10px;
-}
-.olympiads_choice_btn2 a{
-    margin-left: 19px;
-}
-
-.olympiad_lists_block{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-}
-
-@media (min-width: 531px) and (max-width: 919px) {
-    .about_us_img img{
-        max-width: 530px;
-        padding-top: 110px;
+    .header{ 
+        background-position: center; 
+        width: 100%; 
+        background-size: contain; 
+         
+        } 
+    .header_txts{ 
+        display: flex; 
+        flex-direction: column; 
+         
+    } 
+    .header_txts{ 
+        top: -70px; 
+    } 
+    .header_txts h1 { 
+        font-size: 70px; 
+    } 
+    .about_us_p1 p{
+        width: 300px;
+        max-height: 100px;
     }
-
-
-}
-
-@media  (min-width: 1025px) and (max-width: 1440px) {
-    .about_us_img{
-        padding-top: 30px;
+    
+    .about_us_p2 p{
+        width: 300px;
+        max-height: 200px;
+        
     }
-  } */
-  
-  /* Styles for higher widths (1441px and higher) */
+    .about_us_info{
+        margin-top: 100px;
+    }
+    .about_us_info div{
+        display: flex;
+        flex-direction: column;
+        max-height: 100px;
+        justify-items: normal;
+        padding: 0;
+        margin: 0;
+    }
+    .about_us_txt div{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-left: -40px;
+        margin-left: -100px;
+        margin-top: 90px;
+    }
+     
+    .about_us_img img{ 
+        max-width: 330px; 
+        padding-top: 300px; 
+        padding-bottom: 40px;
+    } 
+     
+    .olympiads_choice{ 
+        max-width: 320px; 
+        left: -30px;
+        max-height: 70px;
+         
+    } 
+    .olympiads_header{
+        margin-top: 30px;
+}
+    .olympiads_choice button{ 
+        font-size: 16px; 
+        padding-left: 17px;
+        padding-bottom: 3px;
+        /* margin-right: 10px;  */
+        /* margin-left: -50px;  */
+    } 
+    .olympiads_choice_btn2 a{ 
+        margin-right: -20px;
+    } 
+    .olympiads_choice_btn1 {
+        padding-left: 10px;
+        max-width: 50px;
+    }
+    .olympiads_choice_btn1.active a{
+        background-color:#A47442 ;    
+        border-radius: 20px;
+        padding: 15px 16px;
+        margin-left: -17px;
+        color:#FFFFFF;
+    }
+    .olympiads_choice_btn1:hover a{
+        background-color:#A47442 ;    
+        border-radius: 20px;
+        padding: 15px 16px;
+        margin-left: -17px;
+        color:#FFFFFF;
+    }
+     
+    .olympiad_lists_block{ 
+        display: flex;
+        flex-direction: column; 
+    } 
+    .olympiads_lists, .olympiads_lists_russian{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+
+    }
+    .olympiads_card{
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+    .footer_block_contact h1{ 
+        font-size: 25px; 
+        text-align: left; 
+    } 
+    .footer_block{ 
+        display: flex; 
+        flex-direction: column; 
+        align-items: left; 
+        padding: 30px 40px; 
+        margin-left: -80px; 
+    } 
+    .footer_block_line{ 
+        display: none; 
+        rotate: 90deg; 
+        align-items: center; 
+        margin-left: 159px; 
+        margin-top: 20px; 
+        margin-bottom: -150px; 
+    } 
+    .footer_block_contact p{ 
+        margin-top: -17px; 
+        margin-bottom: 40px; 
+    } 
+    .footer_block_number, .footer_block_email, .footer_block_location{ 
+        padding-bottom: 10px; 
+    } 
+    #footer_h1{ 
+        font-size: 30px; 
+    } 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    } 
+     
+    @media (min-width: 531px) and (max-width: 919px) { 
+        .about_us_img img{ 
+            max-width: 530px; 
+            padding-top: 110px; 
+        } 
+     
+     
+    } 
+     
+    @media  (min-width: 1025px) and (max-width: 1440px) { 
+        .about_us_img{ 
+            padding-top: 30px; 
+        } 
+      } 
+       
+      /* Styles for higher widths (1441px and higher) */ 
+    @media (min-width: 1441px) { 
+        /* Your styles for higher widths go here */ 
+      }
